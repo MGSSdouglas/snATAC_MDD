@@ -175,28 +175,6 @@ assignInNamespace(x="draw_colnames", value="draw_colnames_45",
 pheatmap::pheatmap(plot_df,annotation_row = anno_df,annotation_colors = annoCol, cluster_cols = F, cluster_rows = F, color=colorRampPalette(pal)(256),cellwidth = 20,cellheight = 15,show_rownames = F,fontsize = 15,annotation_names_col=F,annotation_names_row=F)
 dev.off()
 
-######marker cCRE pathways######
-
-library(clusterProfiler)
-library(org.Hs.eg.db)
-
-sub_p2g_full <- readRDS("~/Desktop/Subtype_p2g_redone.rds")
-sub_p2g  <- sub_p2g_full %>% data.frame() %>% drop_na() %>% filter(Correlation > 0.45 & FDR < 1e-04)
-
-path="~/Desktop/List_of_SubClusters_Marker_Peaks/"
-file_list <- list.files(path=path)
-
-for(file_number in 1:length(file_list)){
-  #print(paste0(file_list[file_number]))
-  #print(i)
-  #if(paste0(file_list[file_number]) %in% "ExN1_markerpeaks.tsv"){
-  print(paste0(file_list[file_number]))
-  tmp_cluster <- read.csv(paste0(path,file_list[file_number]), sep="\t",header=TRUE)
-  tmp_cluster$gene <- paste(tmp_cluster$seqnames, tmp_cluster$start, tmp_cluster$end, sep="-")
-  tmp_cluster <- tmp_cluster[order(tmp_cluster$FDR),]
-    #print(head(tmp_cluster))
-  res <- enrichGO(gene = sub_p2g$geneName[sub_p2g$peakName %in% tmp_cluster$gene], OrgDb = org.Hs.eg.db, ont = "ALL",  keyType = 'SYMBOL', pAdjustMethod = "BH",pvalueCutoff = 0.05, minGSSize = 5)
-  }
 
 
 
