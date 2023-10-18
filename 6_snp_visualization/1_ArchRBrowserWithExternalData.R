@@ -1,5 +1,7 @@
 @adapted from Granja et. al, 2021
-#better format than 
+#added functionality on 0_get_archr_highlights.R
+#takes external data (such as P2G, P2P, LD SNPs),
+#highlights SNP and target genes and aligns and plots 
 
 
 ####################################################################
