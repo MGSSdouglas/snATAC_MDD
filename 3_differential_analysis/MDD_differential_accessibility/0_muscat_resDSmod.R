@@ -7,7 +7,7 @@ library(muscat)
 library(Seurat)
 library(limma)
 
-#this script obtains E-values of limma-voom from muscat.
+#script pulls E-values of limma-voom from muscat.
 
 resDS.mod <- function(x, y, bind = c("row", "col"),
     frq = FALSE, cpm = FALSE, digits = 3, sep = "_", ...) {
