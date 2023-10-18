@@ -117,7 +117,7 @@ t(head(assay(frq), 5))
 
 #saveRDS(frq, "~/scratch/frq_fine.rds")
 #coefs <- c("treatment","male.trt", "female.trt", "interaction")
-res_freq <- resDS(sce, result, cpm = FALSE, frq = frq, bind = "col")
+res_freq <- resDS.mod(sce, result, cpm = FALSE, frq = frq, bind = "col")
 #saveRDS(res_freq, "~/scratch/res_freq_subcluster.rds")
 
 
