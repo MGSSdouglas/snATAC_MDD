@@ -34,13 +34,14 @@ for(name in names(markerList)){
 write.csv(total_df, "~/projects/def-gturecki/anjali5/subcluster_marker_tf_result.csv")
 
 ###Case vs control TF motifs#########
+
 proj <- loadArchRProject("~/projects/def-gturecki/ArchR_output/ArchR_BatchTSS_MajorClusters_MetaAdded_FinePeaks_Split_Filtered")
 proj$PMI <- as.numeric(proj$PMI)
 proj$Age <- as.numeric(proj$Age)
 
 total_df <- data.frame()
 
-for(cluster in unique(proj$SubClusters)){ #ClustersMapped for broad level analysis
+for(cluster in unique(proj$SubClusters)){ 
   print(cluster)
   proj2 <- proj[proj$SubClusters %in% cluster,]
   diffMotif <- getMarkerFeatures(ArchRProj = proj2,testMethod = "wilcoxon",useGroups = "Case", bgdGroups = "Control",binarize = FALSE,useMatrix = "MotifMatrix",groupBy = "condition",useSeqnames="z",maxCells = 1000,bias = c("log10(nFrags)", "PMI", "Age"),threads = 16)
