@@ -1,6 +1,6 @@
 @adapted from Granja et. al, 2021
 #added functionality on 0_get_archr_highlights.R
-#takes external data (such as histone peaks, P2G, P2P, LD SNPs),
+#takes external data (such as histone peaks, 3D loops, P2G, P2P, LD SNPs),
 #highlights SNP and target genes and aligns and plots 
 
 
