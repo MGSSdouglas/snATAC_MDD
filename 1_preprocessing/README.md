@@ -13,7 +13,7 @@ Schematic overview of the snATAC-seq study design in 84 subjects from nuclei ex
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/1_preprocessing/snATAC_preprocessing/07_demultiplex_barcodes_by_variants.sh)
 
 ## To match demultiplexed subjects with external genotypes
-[scripts]([https://github.com/MGSSdouglas/snATAC_MDD/tree/main/1_preprocessing/genotyping_qc_and_preprocessing/snATAC_genotype_comparison)
+[scripts](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/1_preprocessing/genotyping_qc_and_preprocessing/snATAC_genotype_comparison)
 
 ## To perform quality control
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/1_preprocessing/quality_control)
