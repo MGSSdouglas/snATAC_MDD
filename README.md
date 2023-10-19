@@ -1,6 +1,7 @@
-# snATAC_MDD
-## Differential Chromatin Architecture and Risk Variants in Deep Layer Excitatory Neurons and Grey Matter Microglia Contribute to Major Depressive Disorder
-https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1
+## [Differential Chromatin Architecture and Risk Variants in Deep Layer Excitatory Neurons and Grey Matter Microglia Contribute to Major Depressive Disorder](https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1)
+
+Anjali Chawla, Doruk Cakmakci,  Wenmin Zhang, Malosree Maitra, Reza Rahimian, Haruka Mitsuhashi, MA Davoli, Jenny Yang, Gary Gang Chen, Ryan Denniston, Deborah Mash, Naguib Mechawar, Matthew Suderman, Yue Li<sup>\*</sup>, Corina Nagy<sup>\*</sup>, Gustavo Turecki<sup>*#</sup>
+<br><sup>\*</sup>Shared senior authorship, <sup>#</sup>Corresponding authorship, [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1)
 
 
 <img width="1385" alt="Screenshot 2023-10-18 at 7 45 42 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/7c07d7ed-484f-4e55-9180-48e926950216">
