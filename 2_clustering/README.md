@@ -20,3 +20,6 @@ UMAP of 201,456 Chromatin accessibility defined high-quality cells colored by 38
 
 ## To perform clustering QC
 [script](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/2_clustering/snATAC_project_clustering/clustering_qc)
+
+## To perform annotation of cell-types and clusters
+[script](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/2_clustering/snATAC_project_clustering/clustering_annotation)
