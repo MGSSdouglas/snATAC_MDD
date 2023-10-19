@@ -10,11 +10,11 @@ https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/1_preprocessing/README.md)
 
-## Generating snATAC-seq project, dimensionality-reduction, clustering, identifying cell types and clusters
+## Generating snATAC-seq project, dimensionality-reduction, clustering, annotating cell types and clusters
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/2_clustering/README.md)
 
-## Differential cCRE and TF motif analysis in MDD versus control subjects, identification of cell types and clusters-specific markers, cluster-specific TF gene regulatory networks
+## Differential cCRE and TF motif analysis in MDD versus control subjects, cell types and clusters-specific markers, cluster-specific TF gene regulatory networks
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/3_differential_analysis/README.md)
 
