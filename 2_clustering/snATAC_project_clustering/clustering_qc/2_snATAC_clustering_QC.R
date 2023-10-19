@@ -78,17 +78,6 @@ plots_list_cluster
 plots_list_sample
 dev.off()
 
-#Plot sex-specific genes per subject
-plots_list <- list()
-features_to_plot <- c("XIST", "NLGN4Y", "JPX", "UTY")
-for(feature in features_to_plot) {
-  plots_list[[feature]] <- plotGroups(newdata, groupBy = "Subject",colorBy="GeneScoreMatrix", name = feature, log2Norm = TRUE, plotAs = "violin", maxCells = 5000)
-}
-pdf(file = "/home/anjali5/projects/def-cnagy/anjali5/Finalized_outputs/Per_Subject_Sex_Validation_genes_.pdf",
-    onefile = TRUE, height = 13, width = 13)
-plots_list
-dev.off()
-
 ##Ratios of Case-Control & Male-Female by Clusters
 print("ratios case/control")
 
