@@ -1,5 +1,5 @@
 ## Main
-This directory contains scripts for creating ArchR project and performing unsupervised clustering of >200,000 nuclei
+This directory contains scripts for creating ArchR project and performing unsupervised clustering and annotation of >200,000 nuclei
 
 ## snATAC-seq clustering
 <img width="1261" alt="Screenshot 2023-10-18 at 6 05 25 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/c9ccb452-c569-48a3-b372-e24951165e64">
