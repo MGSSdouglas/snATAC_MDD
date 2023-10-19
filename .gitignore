@@ -1,2 +1,5 @@
-5_gapped_kmer_svm/envs
+5_gapped_kmer_svm/envs/p36
+5_gapped_kmer_svm/envs/p38
+5_gapped_kmer_svm/envs/renv
+5_gapped_kmer_svm/envs/.Rprofile
 5_gapped_kmer_svm/workspace
