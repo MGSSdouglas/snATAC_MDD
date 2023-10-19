@@ -1,5 +1,5 @@
 ## Main 
-This directory contains scripts for the multi-modal visualization of MDD SNPs. Please note we adapted ArchR scripts and added several functionalities to 1. add external data (such as, histone peaks, 3D chromatin loops). 2. highlight SNPs and target genes. 3. add SNPs in LD with signficant MDD SNPs. 4. easy plotting and coloring of peaks specific to a cell-type or cluster.
+This directory contains scripts for the multi-modal visualization of MDD SNPs. Please note we adapted ArchR scripts (Granja et. al, 2021) and added several functionalities to 1. add external data (such as, histone peaks, 3D chromatin loops, external peak-to-gene linkages). 2. highlight SNPs and target genes. 3. add SNPs in LD with signficant MDD SNPs. 4. easy plotting and coloring of cell-type or cluster-specific peaks.
 
 ## To prepare DLPFC histone modification peaks (https://www.synapse.org/#!Synapse:syn12245061/tables)
 
@@ -24,3 +24,7 @@ This directory contains scripts for the multi-modal visualization of MDD SNPs. P
 ## For visualization of snATAC-seq tracks and MDD SNPs
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/6_snp_visualization/6_visualize_snps.R)
+
+
+## References
+Granja, J.M., Corces, M.R., Pierce, S.E. et al. ArchR is a scalable software package for integrative single-cell chromatin accessibility analysis. Nat Genet 53, 403–411 (2021). https://doi.org/10.1038/s41588-021-00790-6
