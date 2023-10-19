@@ -13,15 +13,15 @@ This directory contains scripts for the multi-modal visualization of MDD SNPs. P
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/6_snp_visualization/2_get_input_p2p_p2g.R)
 
-## To prepare for multi-modal SNP data 
+## To prepare for plotting multi-modal data 
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/6_snp_visualization/1_ArchRBrowserWithExternalData.R)
 
-## To prepare for multi-modal visualization 
+## To prepare for multi-modal SNP visualization 
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/6_snp_visualization/5_plot_atac_connections.R)
 
-## For visualization of snATAC-seq tracks and MDD SNPs
+## To visualize snATAC-seq tracks and MDD SNPs
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/6_snp_visualization/6_visualize_snps.R)
 

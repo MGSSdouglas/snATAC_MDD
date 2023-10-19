@@ -22,7 +22,7 @@ proj <- addDeviationsMatrix(
 saveArchRProject(proj)
 print("ChromVar done")
 
-###Marker TF motifs#################
+###Marker TF motifs Clusters#################
 total_df <- data.frame()
 markersGS <- getMarkerFeatures(ArchRProj = proj,testMethod = "wilcoxon",groupBy="SubClusters",binarize = FALSE,useMatrix = "MotifMatrix",useSeqnames="z",bias = c("log10(nFrags)","TSSEnrichment"),maxCells=1000)
 markerList <- getMarkers(markersGS, cutOff = "FDR < 0.05")
@@ -32,6 +32,17 @@ for(name in names(markerList)){
   total_df <- rbind(total_df,tmp)
 }
 write.csv(total_df, "~/projects/def-gturecki/anjali5/subcluster_marker_tf_result.csv")
+
+###Marker TF motifs Cell types#################
+total_df <- data.frame()
+markersGS <- getMarkerFeatures(ArchRProj = proj,testMethod = "wilcoxon",groupBy="ClustersMapped",binarize = FALSE,useMatrix = "MotifMatrix",useSeqnames="z",bias = c("log10(nFrags)","TSSEnrichment"),maxCells=1000)
+markerList <- getMarkers(markersGS, cutOff = "FDR < 0.05")
+for(name in names(markerList)){
+  tmp <- markerList[[name]] %>% data.frame()
+  tmp$cluster_id <- name
+  total_df <- rbind(total_df,tmp)
+}
+write.csv(total_df,"~/projects/def-cnagy/anjali5/broad_marker_motifs.csv")
 
 ###Case vs control TF motifs#########
 

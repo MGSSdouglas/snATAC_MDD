@@ -1,7 +1,7 @@
 ## Main
 This directory contains scripts for testing heritability enrichment of MDD GWAS SNPs in snATAC-seq cell-types and clusters
 
-## To perform stratified LD score regression in cluster cCREs 
+## To perform stratified LD score regression in cluster cCREs and MDD-associated chromatin
 
 [script](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/4_heritability_enrichment/LDSC)
 
@@ -17,6 +17,6 @@ This directory contains scripts for testing heritability enrichment of MDD GWAS 
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/4_heritability_enrichment/HESS/hess_dar_permute)
 
-## To perform fine-mapping of MDD GWAS summary statisctis (Howard et. al, 2019)
+## To perform fine-mapping of MDD GWAS summary statistics (Howard et. al, 2019)
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/4_heritability_enrichment/Finemapping)
