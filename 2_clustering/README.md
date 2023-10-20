@@ -2,7 +2,9 @@
 This directory contains scripts for creating ArchR project and performing unsupervised clustering and annotation of >200,000 nuclei
 
 ## snATAC-seq clustering
-<img width="1261" alt="Screenshot 2023-10-18 at 6 05 25 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/c9ccb452-c569-48a3-b372-e24951165e64">
+
+<img width="1264" alt="Screenshot 2023-10-20 at 3 22 59 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/b23f40f1-bee8-4f5b-a07c-b80ed5dc8857">
+
 
 UMAP of 201,456 Chromatin accessibility defined high-quality cells colored by 38 clusters from 7 broad cell-types. Iterative clustering within broad excitatory and inhibitory cell-types revealed 12 excitatory (ExN1-12; top), 5 inhibitory clusters (InN3/PV/SST/LAMP5/VIP; bottom). UMAP plot colored by gene-activity computed using ArchR GeneScore matrix for cortical layer (top) and interneuron lineage marker genes (bottom). Top: CUX2: Upper layer (L1-2), RORB, TOX: Middle layer (L3-4), SYNPR, NTNG2, FEZF2: Deep layer (L5-6). Bottom: LHX2, SST, PVALB: medial ganglionic eminence (MGE), ADARB2, VIP, LAMP5: caudal (CGE) lineage interneurons.
 
