@@ -3,8 +3,7 @@
 Anjali Chawla, Doruk Cakmakci,  Wenmin Zhang, Malosree Maitra, Reza Rahimian, Haruka Mitsuhashi, MA Davoli, Jenny Yang, Gary Gang Chen, Ryan Denniston, Deborah Mash, Naguib Mechawar, Matthew Suderman, Yue Li<sup>\*</sup>, Corina Nagy<sup>\*</sup>, Gustavo Turecki<sup>*#</sup>
 <br><sup>\*</sup>Shared senior authorship, <sup>#</sup>Corresponding authorship, [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1)
 
-
-<img width="1398" alt="Screenshot 2023-10-20 at 3 24 19 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/5edc2be9-ee9e-47e8-b87e-7fc5aac7d953">
+<img width="1379" alt="Screenshot 2023-10-20 at 3 25 54 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/1714b2be-b100-4732-b00f-b5d88fb18e75">
 
 
 ## Preprocessing snATAC-seq data, demultiplexing male and female nuclei, matching with external genotypes 
