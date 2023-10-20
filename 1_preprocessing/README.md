@@ -18,7 +18,7 @@ Schematic overview of the snATAC-seq study design in 84 subjects from nuclei ex
 ## To match demultiplexed subjects with external genotypes
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/tree/main/1_preprocessing/genotyping_qc_and_preprocessing/snATAC_genotype_comparison)
 
-## To plot correlations snATAC-seq and genotype correlations
+## To plot correlations between snATAC-seq and genotypes
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/1_preprocessing/snATAC_preprocessing/08_plot_genotype_correlations.R)
 
 ## To perform snATAC-seq quality control
