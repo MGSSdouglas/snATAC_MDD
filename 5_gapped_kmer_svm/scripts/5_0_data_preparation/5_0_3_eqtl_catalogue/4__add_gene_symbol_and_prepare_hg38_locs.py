@@ -21,9 +21,9 @@ GKMSVM_BIN_DIR = os.environ.get("GKMSVM_BIN_DIR")
 
 # configure paths
 data_id = "eqtl_catalogue"
-raw_data_dir = osp.join(GKMSVM_RAW_DATA_DIR, data_id, sep = "/")
+raw_data_dir = osp.join(GKMSVM_RAW_DATA_DIR, data_id)
 sumstats_dir = osp.join(raw_data_dir, "sumstats")
-processed_data_dir = osp.join(GKMSVM_PREPARED_DATA_DIR, data_id, sep = "/")
+processed_data_dir = osp.join(GKMSVM_PREPARED_DATA_DIR, data_id)
 
 
 
