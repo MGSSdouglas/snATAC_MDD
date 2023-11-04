@@ -1,0 +1,7 @@
+The Assign_Indiv_by_Geno.R script from Demuxafy was used to compute the
+pearson correlation between genotyping array genotypes and genotypes from
+demultiplexed bams.
+
+Demuxafy: Improvement in droplet assignment by integrating multiple single-cell demultiplexing and doublet detection methods
+Drew Neavin, Anne Senabouth, Jimmy Tsz Hang Lee, Aida Ripoll, sc-eQTLGen Consortium, Lude Franke, Shyam Prabhakar, Chun Jimmie Ye, Davis J. McCarthy, Marta Melé, Martin Hemberg, Joseph E. Powell
+bioRxiv 2022.03.07.483367; doi: https://doi.org/10.1101/2022.03.07.483367

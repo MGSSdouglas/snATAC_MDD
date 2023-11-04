@@ -1,4 +1,5 @@
 #result <- readRDS("~/Desktop/subcluster_result_limma_allPeaks_corrected_filtered.rds")
+# This script will plot limma voom E values
 
 library(readxl)
 library(ggplot2)
@@ -12,7 +13,7 @@ tmp$Greater3pct <- ifelse(tmp$case.frq  > 0.03 | tmp$control.frq > 0.03, "TRUE",
 atac$Greater3pct <- tmp$Greater3pct
 
 meta <- read_excel("~/Desktop/metadata_subjects.xlsx")
-meta <- meta[meta$BrainID != "DM10",]
+meta <- meta[meta$Subject != "atac_A32B32female",]
 
 plots_list <- list()
 clusters <- c("ExN1", "Mic2") #, "Ast3")
