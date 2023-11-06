@@ -1,4 +1,6 @@
-### Downstream analyses on MDD SNPs, cdSNPs or sSNPs
+### 5_5 Downstream analyses on MDD SNPs, cdSNPs or sSNPs
+
+NOTE (November 6th): The code for this module will be uploaded by November 10th. Please check this folder again after that date.
 
 #### 5_5_1 [SNP source decomposition]()
 
