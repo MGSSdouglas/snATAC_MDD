@@ -34,7 +34,7 @@ for i in ./hg38/*.bed; do liftOver $i ~/scratch/LDSC_for_DAR/hg38ToHg19.over.cha
 mkdir ldscore
 cd ~/scratch/LDSC_for_DAR/ldscore
 for j in $(seq 1 22); do for i in ~/scratch/LDSC_for_DAR/hg19/*.bed; do python ~/projects/def-cnagy/anjali5/ldsc_ldsc/ldsc/make_annot.py --bed-file $i --bimfile ~/projects/def-cnagy/For_Wenmin/scMDD_GWAS_WZ/1KG/1000G_EUR_Phase3_plink/1000G.EUR.QC.$j\.bim --annot-file $(echo $i | cut -f 7 -d '/' | sed "s/\.bed//g").$j\.annot.gz; done; done
-for j in $(seq 20 22); do for i in ~/scratch/LDSC_for_DAR/hg19/*.bed; do python ~/projects/def-cnagy/anjali5/ldsc_ldsc/ldsc/ldsc.py --print-snps ~/projects/def-cnagy/For_Wenmin/scMDD_GWAS_WZ/1KG/hapmap3_snps/hm.$j\.snp --ld-wind-cm 1.0 --out $(echo $i | cut -f 7 -d '/' | sed "s/\.bed//g").$j --bfile ~/projects/def-cnagy/For_Wenmin/scMDD_GWAS_WZ/1KG/1000G_EUR_Phase3_plink/1000G.EUR.QC.$j --thin-annot --annot $(echo $i | cut -f 7 -d '/' | sed "s/\.bed//g").$j\.annot.gz --l2; done ; done
+for j in $(seq 1 22); do for i in ~/scratch/LDSC_for_DAR/hg19/*.bed; do python ~/projects/def-cnagy/anjali5/ldsc_ldsc/ldsc/ldsc.py --print-snps ~/projects/def-cnagy/For_Wenmin/scMDD_GWAS_WZ/1KG/hapmap3_snps/hm.$j\.snp --ld-wind-cm 1.0 --out $(echo $i | cut -f 7 -d '/' | sed "s/\.bed//g").$j --bfile ~/projects/def-cnagy/For_Wenmin/scMDD_GWAS_WZ/1KG/1000G_EUR_Phase3_plink/1000G.EUR.QC.$j --thin-annot --annot $(echo $i | cut -f 7 -d '/' | sed "s/\.bed//g").$j\.annot.gz --l2; done ; done
 
 
 #trait enrichment
