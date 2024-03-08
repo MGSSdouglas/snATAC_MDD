@@ -117,7 +117,7 @@ head(assay(frq))
 t(head(assay(frq), 5))
 #saveRDS(frq, "~/scratch/frq_broad.rds")
 #coefs <- c("treatment","male.trt", "female.trt", "interaction")
-res_freq <- resDS.mod(sce, result, cpm = FALSE, frq = frq, bind = "col")
+res_freq <- resDS.mod(sce, result, cpm = TRUE, frq = frq, bind = "col")
 saveRDS(res_freq, "~/scratch/res_freq_broad.rds")
 
 #filter results to keep peaks accessible in an average of 1% of cells in at least 1 group
