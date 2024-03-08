@@ -84,7 +84,6 @@ get_record = lambda x: SeqRecord(Seq(x["sequence"]), id=x["header"], description
 filepath = osp.join(args.ocr_dir, f"{args.cluster}_OCR.tsv")
 ocrs = pd.read_csv(filepath, sep="\t")
 
-
 # extract underlying ref genome sequence for OCRs
 ocrs["Sequence"] = ocrs[["Chromosome", "Start", "End"]].map(extract_seq)
 
@@ -93,7 +92,7 @@ ocrs["GC_1001bp"] = np.around(ocrs["Sequence"].map(compute_GC), decimals=4)
 
 # OCR GC content bins
 num_gc_bins = args.num_gc_bins
-step_size = int(100/num_gc_bins)
+step_size = int(100 / num_gc_bins)
 percentiles = np.arange(0, 100+step_size, step_size)
 gc_bin_edges = np.percentile(ocrs["GC_1001bp"], percentiles)
 

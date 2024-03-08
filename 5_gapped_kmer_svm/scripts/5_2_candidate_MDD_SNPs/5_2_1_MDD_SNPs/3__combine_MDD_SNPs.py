@@ -50,7 +50,7 @@ filepath = osp.join(GKMSVM_PREPARED_DATA_DIR, "ld_expand.tsv")
 ld_expanded_snps = pd.read_csv(filepath, sep="\t")
 
 # load finemapped SNPs
-data_id = "MDD_GWAS_finemapping"
+data_id = "snps/MDD_GWAS_finemapping"
 prepared_data_dir = osp.join(GKMSVM_PREPARED_DATA_DIR, data_id, sep = "/")
 filepath = osp.join(prepared_data_dir, "snps.hg38_information.tsv")
 finemapped_snps = pd.read_csv(filepath, index=False, sep="\t")
@@ -60,6 +60,6 @@ mdd_snps = pd.concat([lead_snps, ld_expanded_snps, finemapped_snps], axis=0)
 mdd_snps = mdd_snps.drop_duplicates(subset="Name")
 
 # save mdd snps
-filepath = osp.join(prepared_data_dir, "mdd_snps.tsv")
+filepath = osp.join(GKMSVM_PREPARED_DATA_DIR, "mdd_snps.tsv")
 mdd_snps.to_csv(filepath, sep="\t", index=False)
 

@@ -37,6 +37,7 @@ Load and prepare target SNPs and peaks
 # snps
 filepath = osp.join(GKMSVM_PREPARED_DATA_DIR, "mdd_snps.tsv")
 snps = pd.read_csv(filepath, sep="\t", index=False)
+
 snps.dropna(axis=0, inplace=True)
 snps.drop_duplicates(subset=["Name"], keep="first")
 snps["Start"] = snps["Start"].astype(int)
@@ -89,7 +90,7 @@ for cluster in snps_in_cluster_peaks["origin_cell_type"].unique():
 
     cell_type = mapping[cluster]
     temp = [snps_in_cluster_peaks[snps_in_cluster_peaks["origin_cell_type"] == cluster]]
-    temp += [cell_type_peaks[cell_type_peaks["origin_cell_type"] == cell_type]]
+    temp += [snps_in_cell_type_peaks[snps_in_cell_type_peaks["origin_cell_type"] == cell_type]]
     temp = pd.concat(temp, axis=0)
 
     filepath = osp.join(cdsnp_basepath, cluster)
