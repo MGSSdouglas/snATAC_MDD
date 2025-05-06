@@ -29,3 +29,7 @@ Anjali Chawla, Doruk Cakmakci,  Wenmin Zhang, Malosree Maitra, Reza Rahimian, Ha
 ## Multi-modal visualization of MDD SNPs (DLPFC 3D chromatin loops and histone modifications)
 
 [scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/6_snp_visualization/README.md)
+
+## Allelic Imbalance Analysis (snATAC and snRNA)
+
+[scripts](https://github.com/MGSSdouglas/snATAC_MDD/blob/main/7_allelic_imbalance/README.md)
