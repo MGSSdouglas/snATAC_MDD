@@ -1,6 +1,7 @@
-## [Differential Chromatin Architecture and Risk Variants in Deep Layer Excitatory Neurons and Grey Matter Microglia Contribute to Major Depressive Disorder](https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1)
+## [Single-nucleus chromatin accessibility profiling identifies cell types and functional variants contributing to major depression](https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1)
 
-Anjali Chawla, Doruk Cakmakci,  Wenmin Zhang, Malosree Maitra, Reza Rahimian, Haruka Mitsuhashi, MA Davoli, Jenny Yang, Gary Gang Chen, Ryan Denniston, Deborah Mash, Naguib Mechawar, Matthew Suderman, Yue Li<sup>\*</sup>, Corina Nagy<sup>\*</sup>, Gustavo Turecki<sup>*#</sup>
+
+Anjali Chawla, Doruk Cakmakci, Laura M. Fiori, Wenmin Zhang, Malosree Maitra, Jennie Yang, Dariusz Żurawek, Gabriella Frosi, Reza Rahimian, Haruka Mitsuhashi, MA Davoli, Ryan Denniston, Gary Gang Chen, Volodymyr Yerko, Deborah Mash, Kiran Girdhar, Schahram Akbarian, Naguib Mechawar, Matthew Suderman, Yue Li<sup>\*</sup>, Corina Nagy<sup>\*</sup>, Gustavo Turecki<sup>*#</sup>
 <br><sup>\*</sup>Shared senior authorship, <sup>#</sup>Corresponding authorship, [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.10.02.560567v1)
 
 <img width="1379" alt="Screenshot 2023-10-20 at 3 25 54 PM" src="https://github.com/MGSSdouglas/snATAC_MDD/assets/60046859/1714b2be-b100-4732-b00f-b5d88fb18e75">
